@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Saya</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Gaya dasar untuk halaman */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background-image: url('background-image.JPG');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        /* Container utama */
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border: 3px solid #ff4081;
+        }
+
+        /* Foto profil */
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto;
+            display: block;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Judul dan bagian heading */
+        h1, h2 {
+            text-align: center;
+            color: #333;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* About me section */
+        .about {
+            text-align: center;
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        /* Biodata */
+        .biodata p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        /* Formulir pesan */
+        form {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #fafafa;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        form button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: transform 0.2s;
+        }
+
+        form button:hover {
+            background-color: #555;
+        }
+
+        form button:active {
+            transform: scale(0.95);
+        }
+
+        /* Animasi fadeIn */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* Anonymous message */
+        .anonymous {
+            background-color: #dfe6e9;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Gaya untuk musik */
+        audio {
+            display: none;
+        }
+
+        /* Gaya untuk ikon sosial media */
+        .social-media {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .social-icon {
+            color: #333;
+            font-size: 24px;
+            margin: 0 15px;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        .social-icon:hover {
+            color: #ff4081;
+            transform: scale(1.1);
+        }
+
+        .social-icon:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Musik yang diputar otomatis -->
+    <audio autoplay loop>
+        <source src="music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Container utama -->
+    <div class="container">
+        <!-- Foto profil -->
+        <img src="profile-photo.jpg.jpg.jpg" alt="Foto Profil" class="profile-photo">
+
+        <!-- Biodata -->
+        <h1>ABOUT ME!</h1>
+        <div class="biodata">
+            <p><strong>Hai semua!</strong> Nama aku Musdalifah Al Raudthah Gultom, biasanya dipanggil Raudhah, tapi feel free to call me whatever vibe you get from me. Aku seorang yang passionate banget sama super into writing apalagi pas lagi kepikiran hal-hal random tapi keren ✮⋆˙</p>
+            <p><strong>FYI,</strong> Aku sedang menjalani program studi Ilmu Komputer di Universitas Sumatera Utara dan aku masih berada di semester 3. honestly, aku baru terbiasa dengan digital educate dan tech trends yang aku pelajari di kampus. Aku juga selalu mencari cara buat nge-blend innovation dan practicality di setiap project yang aku dan teman-teman aku kerjain ᯓᡣ𐭩</p>
+            <p><strong>Next, hobi?</strong> Selain hal-hal diatas, anw aku juga suka explore cool stuff, whether jalan-jalan cari vibes yang asik - I love shopping, especially 4 new fits or adding wardrobe - Aku juga suka watching cinema but I've fun fact semisal temen-temen aku ngajak nonton genre horror, aku selalu nge-yay-in aja but realitanya? aku pasti fokus main HP, literally takut nonton filmnya. Jadi aku kaya ada di bioskop tapi ga ikutan tegang, cuz I don't vibe w/ that, horror genre just ain't my thing, u know?</p>
+        </div>
+
+        <!-- About Me -->
+        <h2>Journeypad ˚ ༘ 🦕𖦹⋆｡˚</h2>
+        <div class="about">
+            <p>Dimulai dari perjalanan aku di Boarding School Ar-Raudlatul Hasanah Medan, tempat aku dapat academic foundation yang complete. Aku menjalani 4 tahun di masa SMA ku dengan 1 tahun kelas bahasa (english-arabic) dan 3 tahun sekolah formal. setelah graduate, aku melanjutkan kuliah di jurusan Ilmu Komputer. Setiap langkah dalam journey pasti memberikan new insight and skills yang bikin aku lebih siap untuk future opportunities. Ketika aku duduk di kelas sebelas saat SMA aku juga pernah membuat sebuah buku yang berjudul 'Syifa dan Lukanya' dimana saat itu aku membuat buku solo untuk pertama kalinya setelah buku-buku trilogi bersama teman-teman SMA aku. That's 'bout me, so let's connect and create something amazing together w/ me
+                𐙚
+                  </p>
+        </div>
+
+        <!-- Pesan singkat -->
+        <h2>Drop me a message!</h2>
+        <form action="#" method="POST">
+            <label for="name">Nama kamu siapa?</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="message">Keren, any message for me?</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Kirim</button>
+        </form>
+
+        <!-- Anonymous Message Section -->
+        <div class="anonymous">
+            <p><strong>Eckhart Tolle</strong> "Stay true to your vibe and let the world adjust⊹ ࣪ ˖"</p>
+        </div>
+
+        <!-- Bagian sosial media -->
+        <div class="social-media">
+            <a href="https://www.instagram.com/raudhahhgltm?igsh=c2YyZmg3Z3JrcGZq" target="_blank" class="social-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://open.spotify.com/user/3i5fje1mdwuaea3b6lgugx5xk?si=Gv_4mhxMT2eF0ZukUuMuyg" target="_blank" class="social-icon">
+                <i class="fab fa-spotify"></i>
+            </a>
+        </div>
+    </div>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jadwal Kuliah</title>
+        <style>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 20px;
+                animation: fadeIn 1.5s ease-in-out;
+            }
+    
+            th, td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align:center;
+            }
+    
+            th {
+                background-color: #c23d8f;
+                color: rgb(228, 220, 215);
+            }
+    
+            tr:nth-child(even) {
+                background-color: #d8cece;
+            }
+    
+            tr:hover {
+                background-color: #e15eac;
+            }
+    
+            /* Animasi untuk tabel */
+            @keyframes fadeIn {
+                from { opacity: 0; }
+                to { opacity: 1; }
+            }
+        </style>
+    </head>
+    <body>
+    
+    <h2>Ma Timetable!</h2>
+    <table>
+        <tr>
+            <th>Hari</th>
+            <th>Mata Kuliah</th>
+            <th>Jam</th>
+            <th>Dosen</th>
+        </tr>
+        <tr>
+            <td>Senin</td>
+            <td>Praktikum Pemrograman Web</td>
+            <td>11:00 - 12:40</td>
+            <td>Aslab Rivaldo Pardede</td>
+        </tr>
+        <tr>
+            <td>Senin</td>
+            <td>Aplikasi Komputer Akuntansi</td>
+            <td>13:00 - 14:40</td>
+            <td>Pak Dio Agung Herubawa SE., M.Acc.</td>
+        </tr>
+        <tr>
+            <td>Selasa</td>
+            <td>Basic English Grammar</td>
+            <td>13:30 - 15:30</td>
+            <td>Ibu Dian Marisha Putri S.S., M.Si.</td>
+        </tr>
+        <tr>
+            <td>Rabu</td>
+            <td>Pemrograman Web</td>
+            <td>08:30 - 10:30</td>
+            <td>Ibu Dewi Sartika Br. Ginting S.Kom., M.Kom.</td>
+        </tr>
+        <tr>
+            <td>Rabu</td>
+            <td>Kecerdasan Buatan</td>
+            <td>10:30 - 13:00</td>
+            <td>Ibu Dr. Amalia S.T., M.T.</td>
+        </tr>
+        <tr>
+            <td>Rabu</td>
+            <td>Basis Data</td>
+            <td>14:00 - 16:00</td>
+            <td>Pak Prof. Drs. Poltak Sihombing M.Kom., Ph.D.</td>
+        </tr>
+        <tr>
+            <td>Kamis</td>
+            <td>Etika Profesi</td>
+            <td>08:00 - 09:40</td>
+            <td>Pak Dr. Eng Ade Candra S.T., M.Kom.</td>
+        </tr>
+        <tr>
+            <td>Kamis</td>
+            <td>Struktur Data</td>
+            <td>10:30 - 13:00</td>
+            <td>Ibu Insidini Fawwaz M.Kom.</td>
+        </tr>
+        <tr>
+            <td>Jumat</td>
+            <td>Wirausaha Digital</td>
+            <td>08:00 - 09:40</td>
+            <td>Ibu Dr. T. Henny Febriana Harumy S.Kom., M.Kom.</td>
+        </tr>
+        <tr>
+            <td>Jumat</td>
+            <td>Praktikum Basis Data</td>
+            <td>10:40 - 12:20</td>
+            <td>Aslab Virgie</td>
+        </tr>
+        <tr>
+            <td>Jumat</td>
+            <td>Praktikum Kecerdasan Buatan</td>
+            <td>13:50 - 15:30</td>
+            <td>Aslab Rafael Simamarta</td>
+        </tr>
+
+    </table>
+    
+
+    </body>
+    </html>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            animation: slideIn 1s ease-in-out;
+        }
+
+        th, td {
+            border: 1px solid #ba5a92;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #c849a4;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #c4b2c0;
+        }
+
+        /* Animasi untuk tabel */
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+    </style>
+</head>
+<body>
+
+<h2>Ma Profile!</h2>
+<table>
+    <tr>
+        <th>Keterangan</th>
+        <th>Detail</th>
+    </tr>
+    <tr>
+        <td>Nama</td>
+        <td>Musdalifah Al Raudthah Gultom</td>
+    </tr>
+    <tr>
+        <td>NIM</td>
+        <td>231401106</td>
+    </tr>
+    <tr>
+        <td>Fakultas</td>
+        <td>Ilmu Komputer dan Teknologi Informasi</td>
+    </tr>
+    <tr>
+        <td>Universitas</td>
+        <td>Universitas Sumatera Utara</td>
+    </tr>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            animation: slideIn 1s ease-in-out;
+        }
+
+        th, td {
+            border: 1px solid #933276;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #d646d1;
+            color: rgb(214, 203, 203);
+        }
+
+        tr:nth-child(even) {
+            background-color: #f3e8e8;
+        }
+
+        /* Animasi untuk tabel */
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+    </style>
+</head>
+<body>
+
+<h2>☁︎☁︎☁︎</h2>
+<table>
+    <tr>
+        <th>Ket</th>
+        <th>Detail</th>
+    </tr>
+    <tr>
+        <td>Nama</td>
+        <td>Musdalifah Al Raudthah Gultom</td>
+    </tr>
+    <tr>
+        <td>NIM</td>
+        <td>231401106</td>
+    </tr>
+    <tr>
+        <td>KOM</td>
+        <td>A</td>
+    </tr>
+    <tr>
+        <td>Fakultas</td>
+        <td>Ilmu Komputer dan Teknologi Informasi</td>
+   </tr>
+   <tr>
+    <td>Universitas</td>
+    <td>Universitas Sumatera Utara</td>
+</tr>
+<tr>
+    <td>Motto Hidup</td>
+    <td>live life to the fullest, no regrets!</td>
+    </tr>
+
+
+</table>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer with Thank You Message</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .footer {
+            background-color: #b981ad;
+            color: #d2a8d2;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer h2 {
+            margin: 0;
+            font-size: 24px;
+            animation: fadeIn 2s ease-in;
+        }
+        .footer p {
+            margin: 10px 0;
+            font-size: 16px;
+            animation: fadeIn 3s ease-in;
+        }
+        .footer a {
+            color: #ddc7d6;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .footer a:hover {
+            color: #debed1;
+        }
+        .footer .social-icons {
+            margin: 20px 0;
+        }
+        .footer .social-icons a {
+            color: #b7699d;
+            font-size: 20px;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+        .footer .social-icons a:hover {
+            color: #db34a9;
+        }
+        .thank-you {
+            background-color: #ac519f;
+            color: #b64f9e;
+            padding: 10px;
+            font-size: 18px;
+            border-top: 2px solid #db34ae;
+            animation: slideUp 1s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Other content of the website -->
+
+    <footer class="footer">
+        <h2>Stay Connected</h2>
+        <p>Follow me on social media!</p>
+        <div class="social-icons">
+            <a href="#" aria-label="Twitter" class="fab fa-twitter">T</a>
+            <a href="#" aria-label="Instagram" class="https://www.instagram.com/raudhahhgltm?igsh=c2YyZmg3Z3JrcGZq">I</a>
+            <a href="#" aria-label="LinkedIn" class="fab fa-linkedin-in">L</a>
+        </div>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <div class="thank-you">
+            Terima kasih telah mengunjungi website saya!
+        </div>
+    </footer>
+</body>
+</html>
+
+
+</body>
+</html>
